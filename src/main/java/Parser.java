@@ -106,6 +106,7 @@ public class Parser {
         System.out.printf("%-20s" , "population");
         System.out.println("AREA" + white);
         for(int i=0 ; i<size ; i++ ){
+
             System.out.print(nameColor);
             System.out.printf("%-35S" , list.get(i).getName() );
             System.out.printf("%-30S" , list.get(i).getCapital() );
